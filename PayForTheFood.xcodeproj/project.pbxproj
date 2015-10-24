@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F9D18621BDC409700E1BB92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D18611BDC409700E1BB92 /* AppDelegate.swift */; };
+		3F9D18641BDC409700E1BB92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D18631BDC409700E1BB92 /* ViewController.swift */; };
+		3F9D18671BDC409700E1BB92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D18651BDC409700E1BB92 /* Main.storyboard */; };
+		3F9D18691BDC409700E1BB92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D18681BDC409700E1BB92 /* Assets.xcassets */; };
+		3F9D186C1BDC409700E1BB92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D186A1BDC409700E1BB92 /* LaunchScreen.storyboard */; };
+		3F9D18711BDC409700E1BB92 /* PayForTheFood WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3F9D18701BDC409700E1BB92 /* PayForTheFood WatchKit App.app */; };
+		3F9D18771BDC409700E1BB92 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D18751BDC409700E1BB92 /* Interface.storyboard */; };
+		3F9D18791BDC409700E1BB92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D18781BDC409700E1BB92 /* Assets.xcassets */; };
+		3F9D18801BDC409700E1BB92 /* PayForTheFood WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3F9D187F1BDC409700E1BB92 /* PayForTheFood WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3F9D18851BDC409700E1BB92 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D18841BDC409700E1BB92 /* InterfaceController.swift */; };
+		3F9D18871BDC409700E1BB92 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D18861BDC409700E1BB92 /* ExtensionDelegate.swift */; };
+		3F9D18891BDC409700E1BB92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D18881BDC409700E1BB92 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F9D18721BDC409700E1BB92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F9D18561BDC409700E1BB92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F9D186F1BDC409700E1BB92;
+			remoteInfo = "PayForTheFood WatchKit App";
+		};
+		3F9D18811BDC409700E1BB92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F9D18561BDC409700E1BB92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F9D187E1BDC409700E1BB92;
+			remoteInfo = "PayForTheFood WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3F9D18901BDC409700E1BB92 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3F9D18801BDC409700E1BB92 /* PayForTheFood WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9D18941BDC409700E1BB92 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3F9D18711BDC409700E1BB92 /* PayForTheFood WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3F9D185E1BDC409700E1BB92 /* PayForTheFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayForTheFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9D18611BDC409700E1BB92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F9D18631BDC409700E1BB92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F9D18661BDC409700E1BB92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F9D18681BDC409700E1BB92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F9D186B1BDC409700E1BB92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F9D186D1BDC409700E1BB92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F9D18701BDC409700E1BB92 /* PayForTheFood WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PayForTheFood WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9D18761BDC409700E1BB92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3F9D18781BDC409700E1BB92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F9D187A1BDC409700E1BB92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F9D187F1BDC409700E1BB92 /* PayForTheFood WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PayForTheFood WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9D18841BDC409700E1BB92 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		3F9D18861BDC409700E1BB92 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		3F9D18881BDC409700E1BB92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F9D188A1BDC409700E1BB92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F9D185B1BDC409700E1BB92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9D187C1BDC409700E1BB92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F9D18551BDC409700E1BB92 = {
+			isa = PBXGroup;
+			children = (
+				3F9D18601BDC409700E1BB92 /* PayForTheFood */,
+				3F9D18741BDC409700E1BB92 /* PayForTheFood WatchKit App */,
+				3F9D18831BDC409700E1BB92 /* PayForTheFood WatchKit Extension */,
+				3F9D185F1BDC409700E1BB92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F9D185F1BDC409700E1BB92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F9D185E1BDC409700E1BB92 /* PayForTheFood.app */,
+				3F9D18701BDC409700E1BB92 /* PayForTheFood WatchKit App.app */,
+				3F9D187F1BDC409700E1BB92 /* PayForTheFood WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F9D18601BDC409700E1BB92 /* PayForTheFood */ = {
+			isa = PBXGroup;
+			children = (
+				3F9D18611BDC409700E1BB92 /* AppDelegate.swift */,
+				3F9D18631BDC409700E1BB92 /* ViewController.swift */,
+				3F9D18651BDC409700E1BB92 /* Main.storyboard */,
+				3F9D18681BDC409700E1BB92 /* Assets.xcassets */,
+				3F9D186A1BDC409700E1BB92 /* LaunchScreen.storyboard */,
+				3F9D186D1BDC409700E1BB92 /* Info.plist */,
+			);
+			path = PayForTheFood;
+			sourceTree = "<group>";
+		};
+		3F9D18741BDC409700E1BB92 /* PayForTheFood WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				3F9D18751BDC409700E1BB92 /* Interface.storyboard */,
+				3F9D18781BDC409700E1BB92 /* Assets.xcassets */,
+				3F9D187A1BDC409700E1BB92 /* Info.plist */,
+			);
+			path = "PayForTheFood WatchKit App";
+			sourceTree = "<group>";
+		};
+		3F9D18831BDC409700E1BB92 /* PayForTheFood WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3F9D18841BDC409700E1BB92 /* InterfaceController.swift */,
+				3F9D18861BDC409700E1BB92 /* ExtensionDelegate.swift */,
+				3F9D18881BDC409700E1BB92 /* Assets.xcassets */,
+				3F9D188A1BDC409700E1BB92 /* Info.plist */,
+			);
+			path = "PayForTheFood WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F9D185D1BDC409700E1BB92 /* PayForTheFood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F9D18951BDC409700E1BB92 /* Build configuration list for PBXNativeTarget "PayForTheFood" */;
+			buildPhases = (
+				3F9D185A1BDC409700E1BB92 /* Sources */,
+				3F9D185B1BDC409700E1BB92 /* Frameworks */,
+				3F9D185C1BDC409700E1BB92 /* Resources */,
+				3F9D18941BDC409700E1BB92 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F9D18731BDC409700E1BB92 /* PBXTargetDependency */,
+			);
+			name = PayForTheFood;
+			productName = PayForTheFood;
+			productReference = 3F9D185E1BDC409700E1BB92 /* PayForTheFood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F9D186F1BDC409700E1BB92 /* PayForTheFood WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F9D18911BDC409700E1BB92 /* Build configuration list for PBXNativeTarget "PayForTheFood WatchKit App" */;
+			buildPhases = (
+				3F9D186E1BDC409700E1BB92 /* Resources */,
+				3F9D18901BDC409700E1BB92 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F9D18821BDC409700E1BB92 /* PBXTargetDependency */,
+			);
+			name = "PayForTheFood WatchKit App";
+			productName = "PayForTheFood WatchKit App";
+			productReference = 3F9D18701BDC409700E1BB92 /* PayForTheFood WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		3F9D187E1BDC409700E1BB92 /* PayForTheFood WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F9D188D1BDC409700E1BB92 /* Build configuration list for PBXNativeTarget "PayForTheFood WatchKit Extension" */;
+			buildPhases = (
+				3F9D187B1BDC409700E1BB92 /* Sources */,
+				3F9D187C1BDC409700E1BB92 /* Frameworks */,
+				3F9D187D1BDC409700E1BB92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PayForTheFood WatchKit Extension";
+			productName = "PayForTheFood WatchKit Extension";
+			productReference = 3F9D187F1BDC409700E1BB92 /* PayForTheFood WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F9D18561BDC409700E1BB92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Timothy Horng";
+				TargetAttributes = {
+					3F9D185D1BDC409700E1BB92 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					3F9D186F1BDC409700E1BB92 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					3F9D187E1BDC409700E1BB92 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 3F9D18591BDC409700E1BB92 /* Build configuration list for PBXProject "PayForTheFood" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F9D18551BDC409700E1BB92;
+			productRefGroup = 3F9D185F1BDC409700E1BB92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F9D185D1BDC409700E1BB92 /* PayForTheFood */,
+				3F9D186F1BDC409700E1BB92 /* PayForTheFood WatchKit App */,
+				3F9D187E1BDC409700E1BB92 /* PayForTheFood WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F9D185C1BDC409700E1BB92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9D186C1BDC409700E1BB92 /* LaunchScreen.storyboard in Resources */,
+				3F9D18691BDC409700E1BB92 /* Assets.xcassets in Resources */,
+				3F9D18671BDC409700E1BB92 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9D186E1BDC409700E1BB92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9D18791BDC409700E1BB92 /* Assets.xcassets in Resources */,
+				3F9D18771BDC409700E1BB92 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9D187D1BDC409700E1BB92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9D18891BDC409700E1BB92 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F9D185A1BDC409700E1BB92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9D18641BDC409700E1BB92 /* ViewController.swift in Sources */,
+				3F9D18621BDC409700E1BB92 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9D187B1BDC409700E1BB92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9D18871BDC409700E1BB92 /* ExtensionDelegate.swift in Sources */,
+				3F9D18851BDC409700E1BB92 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F9D18731BDC409700E1BB92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F9D186F1BDC409700E1BB92 /* PayForTheFood WatchKit App */;
+			targetProxy = 3F9D18721BDC409700E1BB92 /* PBXContainerItemProxy */;
+		};
+		3F9D18821BDC409700E1BB92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F9D187E1BDC409700E1BB92 /* PayForTheFood WatchKit Extension */;
+			targetProxy = 3F9D18811BDC409700E1BB92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F9D18651BDC409700E1BB92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F9D18661BDC409700E1BB92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F9D186A1BDC409700E1BB92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F9D186B1BDC409700E1BB92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3F9D18751BDC409700E1BB92 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F9D18761BDC409700E1BB92 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F9D188B1BDC409700E1BB92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F9D188C1BDC409700E1BB92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F9D188E1BDC409700E1BB92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "PayForTheFood WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timothyhorng.PayForTheFood.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		3F9D188F1BDC409700E1BB92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "PayForTheFood WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timothyhorng.PayForTheFood.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		3F9D18921BDC409700E1BB92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = PayForTheFood_WatchKit_Extension;
+				INFOPLIST_FILE = "PayForTheFood WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timothyhorng.PayForTheFood.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		3F9D18931BDC409700E1BB92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = PayForTheFood_WatchKit_Extension;
+				INFOPLIST_FILE = "PayForTheFood WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timothyhorng.PayForTheFood.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		3F9D18961BDC409700E1BB92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PayForTheFood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timothyhorng.PayForTheFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F9D18971BDC409700E1BB92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PayForTheFood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timothyhorng.PayForTheFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F9D18591BDC409700E1BB92 /* Build configuration list for PBXProject "PayForTheFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9D188B1BDC409700E1BB92 /* Debug */,
+				3F9D188C1BDC409700E1BB92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F9D188D1BDC409700E1BB92 /* Build configuration list for PBXNativeTarget "PayForTheFood WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9D188E1BDC409700E1BB92 /* Debug */,
+				3F9D188F1BDC409700E1BB92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F9D18911BDC409700E1BB92 /* Build configuration list for PBXNativeTarget "PayForTheFood WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9D18921BDC409700E1BB92 /* Debug */,
+				3F9D18931BDC409700E1BB92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F9D18951BDC409700E1BB92 /* Build configuration list for PBXNativeTarget "PayForTheFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9D18961BDC409700E1BB92 /* Debug */,
+				3F9D18971BDC409700E1BB92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F9D18561BDC409700E1BB92 /* Project object */;
+}
