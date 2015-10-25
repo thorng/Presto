@@ -7,11 +7,19 @@
 //
 
 import WatchKit
+import Parse
+import Bolts
 
 class ExtensionDelegate: NSObject, WKExtensionDelegate {
 
     func applicationDidFinishLaunching() {
         // Perform any final initialization of your application.
+        
+        // Enable data sharing in app extensions.
+//        Parse.enableDataSharingWithApplicationGroupIdentifier("group.com.timothyhorng.payforfood",
+//            containingApplication: "com.timothyhorng.PayForTheFood")
+        // Setup Parse
+//        Parse.setApplicationId("FMpOZ3pGmgoKxs5eAkml0W4JOItxcNSxykrBLFTO", clientKey: "GZKolYxmca3XFyA9cDT84bKwsHVRdwpeN8KToxHL")
     }
 
     func applicationDidBecomeActive() {

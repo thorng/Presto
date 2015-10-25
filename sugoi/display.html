@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Calm breeze login screen</title>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://www.parsecdn.com/js/parse-latest.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+
+
+
+
+  </head>
+
+  <body>
+
+    <div class="wrapper">
+	<div class="container">
+		<h1>The Golden Lux</h1>
+	</div>
+        <div>
+            <h1>Restuarant Guests</h1>
+            <ul>
+                <li> Kobe Bryant </li>
+                <li> Taylor Swift </li>
+                <li> Johnny Depp </li>
+                <li> Emma Watson</li>
+            </ul>
+            <h1>Bill</h1>
+        </div>
+
+
+</div>
+
+
+    <script>
+Parse.initialize("FMpOZ3pGmgoKxs5eAkml0W4JOItxcNSxykrBLFTO", "Pi563TSPHTQVHDAbMXol07FxJIhORBljv8HJRDHb");
+
+
+var Cardclass = Parse.Object.extend("CardClass");
+var query = new Parse.Query(Cardclass);
+query.get("HVXSFQM6CH", {
+  success: function(Cardclass) {
+    // The object was retrieved successfully.
+    var number = Cardclass.get("cardNumber");
+        document.write("Card Number: " + number);
+    document.getElementById('number').intnerHTML = total;
+    var date = Cardclass.get("expirationDate");
+    document.write("<br>Expiration Date: " + date);
+    var security = Cardclass.get("securityCode");
+    document.write("<br>CVV: "+ security);
+
+  },
+  error: function(object, error) {
+    // The object was not retrieved successfully.
+    // error is a Parse.Error with an error code and message.
+  }
+});
+
+
+</script>
+<div id="total"></div>
+
+  </body>
+</html>

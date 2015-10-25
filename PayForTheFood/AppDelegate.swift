@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Parse
+import Bolts
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,7 +18,39 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        Parse.enableLocalDatastore()
+        
+        // Enable data sharing in main app
+        Parse.enableDataSharingWithApplicationGroupIdentifier("group.com.timothyhorng.payforfood");
+        // Setup Parse
+        Parse.setApplicationId("FMpOZ3pGmgoKxs5eAkml0W4JOItxcNSxykrBLFTO", clientKey: "GZKolYxmca3XFyA9cDT84bKwsHVRdwpeN8KToxHL")
+        
+        // [Optional] Track statistics around application opens.
+        PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
+        
+        UIApplication.sharedApplication().setMinimumBackgroundFetchInterval(
+            UIApplicationBackgroundFetchIntervalMinimum)
+        
+        
         return true
+    }
+    
+    // Support for background fetch
+    func application(application: UIApplication, performFetchWithCompletionHandler completionHandler: (UIBackgroundFetchResult) -> Void) {
+        
+        let tabBarController = window?.rootViewController as? UITabBarController
+        let viewControllers = tabBarController!.viewControllers! as [UIViewController]
+        
+        for viewController in viewControllers {
+            if let mainViewController = viewController as? MainViewController {
+                mainViewController.fetch {
+                    mainViewController.updateLabels()
+                    mainViewController.uploadToParse()
+                    completionHandler(.NewData)
+                }
+            }
+        }
     }
 
     func applicationWillResignActive(application: UIApplication) {

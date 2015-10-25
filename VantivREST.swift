@@ -7,3 +7,9 @@
 //
 
 import Foundation
+import WatchKit
+
+class VantivRest {
+
+
+}

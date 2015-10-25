@@ -7,8 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F4883271BDCC67000DCD09D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEDEB2F1BDC920F00ACC0DE /* AudioToolbox.framework */; };
+		3F4883281BDCC67300DCD09D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEDEB311BDC921300ACC0DE /* CFNetwork.framework */; };
+		3F4883291BDCC67600DCD09D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEDEB331BDC921900ACC0DE /* CoreGraphics.framework */; };
+		3F48832A1BDCC67900DCD09D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEDEB351BDC921E00ACC0DE /* CoreLocation.framework */; };
+		3F48832B1BDCC67B00DCD09D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEDEB371BDC922200ACC0DE /* QuartzCore.framework */; };
+		3F48832C1BDCC67E00DCD09D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEDEB391BDC922800ACC0DE /* Security.framework */; };
+		3F48832D1BDCC68000DCD09D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEDEB3B1BDC922C00ACC0DE /* StoreKit.framework */; };
+		3F48832E1BDCC68300DCD09D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEDEB3D1BDC923400ACC0DE /* SystemConfiguration.framework */; };
+		3F48832F1BDCC68600DCD09D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEDEB3F1BDC923900ACC0DE /* libz.tbd */; };
+		3F4883301BDCC68900DCD09D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEDEB411BDC923F00ACC0DE /* libsqlite3.tbd */; };
+		3F4883331BDCD85400DCD09D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4883321BDCD85400DCD09D /* MainViewController.swift */; };
 		3F9D18621BDC409700E1BB92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D18611BDC409700E1BB92 /* AppDelegate.swift */; };
-		3F9D18641BDC409700E1BB92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D18631BDC409700E1BB92 /* ViewController.swift */; };
 		3F9D18671BDC409700E1BB92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D18651BDC409700E1BB92 /* Main.storyboard */; };
 		3F9D18691BDC409700E1BB92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D18681BDC409700E1BB92 /* Assets.xcassets */; };
 		3F9D186C1BDC409700E1BB92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D186A1BDC409700E1BB92 /* LaunchScreen.storyboard */; };
@@ -19,6 +29,28 @@
 		3F9D18851BDC409700E1BB92 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D18841BDC409700E1BB92 /* InterfaceController.swift */; };
 		3F9D18871BDC409700E1BB92 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D18861BDC409700E1BB92 /* ExtensionDelegate.swift */; };
 		3F9D18891BDC409700E1BB92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D18881BDC409700E1BB92 /* Assets.xcassets */; };
+		3F9D18991BDC479100E1BB92 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D18981BDC479100E1BB92 /* Network.swift */; };
+		3FE44FF51BDD172D00198D02 /* VantivREST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE44FF41BDD172D00198D02 /* VantivREST.swift */; };
+		3FE44FF91BDD20CD00198D02 /* PaidInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE44FF81BDD20CD00198D02 /* PaidInterfaceController.swift */; };
+		3FEDEB241BDC568200ACC0DE /* PayNowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEDEB231BDC568200ACC0DE /* PayNowController.swift */; };
+		3FEDEB261BDC899400ACC0DE /* CardEntryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEDEB251BDC899400ACC0DE /* CardEntryTableViewController.swift */; };
+		3FEDEB281BDC8A2400ACC0DE /* CardObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEDEB271BDC8A2400ACC0DE /* CardObject.swift */; };
+		3FEDEB2B1BDC91CA00ACC0DE /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEDEB291BDC91CA00ACC0DE /* Bolts.framework */; };
+		3FEDEB2C1BDC91CA00ACC0DE /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEDEB291BDC91CA00ACC0DE /* Bolts.framework */; };
+		3FEDEB2D1BDC91CA00ACC0DE /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEDEB2A1BDC91CA00ACC0DE /* Parse.framework */; };
+		3FEDEB2E1BDC91CA00ACC0DE /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEDEB2A1BDC91CA00ACC0DE /* Parse.framework */; };
+		3FEDEB301BDC920F00ACC0DE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEDEB2F1BDC920F00ACC0DE /* AudioToolbox.framework */; };
+		3FEDEB321BDC921300ACC0DE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEDEB311BDC921300ACC0DE /* CFNetwork.framework */; };
+		3FEDEB341BDC921900ACC0DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEDEB331BDC921900ACC0DE /* CoreGraphics.framework */; };
+		3FEDEB361BDC921E00ACC0DE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEDEB351BDC921E00ACC0DE /* CoreLocation.framework */; };
+		3FEDEB381BDC922300ACC0DE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEDEB371BDC922200ACC0DE /* QuartzCore.framework */; };
+		3FEDEB3A1BDC922800ACC0DE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEDEB391BDC922800ACC0DE /* Security.framework */; };
+		3FEDEB3C1BDC922C00ACC0DE /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEDEB3B1BDC922C00ACC0DE /* StoreKit.framework */; };
+		3FEDEB3E1BDC923400ACC0DE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEDEB3D1BDC923400ACC0DE /* SystemConfiguration.framework */; };
+		3FEDEB401BDC923900ACC0DE /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEDEB3F1BDC923900ACC0DE /* libz.tbd */; };
+		3FEDEB421BDC923F00ACC0DE /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEDEB411BDC923F00ACC0DE /* libsqlite3.tbd */; };
+		3FEDEB451BDCB37300ACC0DE /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEDEB441BDCB37300ACC0DE /* MainTableViewController.swift */; };
+		3FEDEB461BDCB37300ACC0DE /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEDEB441BDCB37300ACC0DE /* MainTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,9 +96,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3F4883311BDCCA7C00DCD09D /* PayForTheFood WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "PayForTheFood WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		3F4883321BDCD85400DCD09D /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		3F9D185E1BDC409700E1BB92 /* PayForTheFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayForTheFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F9D18611BDC409700E1BB92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F9D18631BDC409700E1BB92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3F9D18661BDC409700E1BB92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F9D18681BDC409700E1BB92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F9D186B1BDC409700E1BB92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -80,6 +113,26 @@
 		3F9D18861BDC409700E1BB92 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		3F9D18881BDC409700E1BB92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F9D188A1BDC409700E1BB92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F9D18981BDC479100E1BB92 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		3FE44FF41BDD172D00198D02 /* VantivREST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VantivREST.swift; path = ../VantivREST.swift; sourceTree = "<group>"; };
+		3FE44FF81BDD20CD00198D02 /* PaidInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PaidInterfaceController.swift; path = ../PaidInterfaceController.swift; sourceTree = "<group>"; };
+		3FEDEB231BDC568200ACC0DE /* PayNowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayNowController.swift; sourceTree = "<group>"; };
+		3FEDEB251BDC899400ACC0DE /* CardEntryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardEntryTableViewController.swift; sourceTree = "<group>"; };
+		3FEDEB271BDC8A2400ACC0DE /* CardObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardObject.swift; sourceTree = "<group>"; };
+		3FEDEB291BDC91CA00ACC0DE /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		3FEDEB2A1BDC91CA00ACC0DE /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		3FEDEB2F1BDC920F00ACC0DE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3FEDEB311BDC921300ACC0DE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3FEDEB331BDC921900ACC0DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3FEDEB351BDC921E00ACC0DE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3FEDEB371BDC922200ACC0DE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3FEDEB391BDC922800ACC0DE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3FEDEB3B1BDC922C00ACC0DE /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		3FEDEB3D1BDC923400ACC0DE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3FEDEB3F1BDC923900ACC0DE /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		3FEDEB411BDC923F00ACC0DE /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		3FEDEB431BDCA44E00ACC0DE /* PayForTheFood.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PayForTheFood.entitlements; sourceTree = "<group>"; };
+		3FEDEB441BDCB37300ACC0DE /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +140,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FEDEB421BDC923F00ACC0DE /* libsqlite3.tbd in Frameworks */,
+				3FEDEB401BDC923900ACC0DE /* libz.tbd in Frameworks */,
+				3FEDEB3E1BDC923400ACC0DE /* SystemConfiguration.framework in Frameworks */,
+				3FEDEB3C1BDC922C00ACC0DE /* StoreKit.framework in Frameworks */,
+				3FEDEB3A1BDC922800ACC0DE /* Security.framework in Frameworks */,
+				3FEDEB381BDC922300ACC0DE /* QuartzCore.framework in Frameworks */,
+				3FEDEB361BDC921E00ACC0DE /* CoreLocation.framework in Frameworks */,
+				3FEDEB341BDC921900ACC0DE /* CoreGraphics.framework in Frameworks */,
+				3FEDEB321BDC921300ACC0DE /* CFNetwork.framework in Frameworks */,
+				3FEDEB301BDC920F00ACC0DE /* AudioToolbox.framework in Frameworks */,
+				3FEDEB2D1BDC91CA00ACC0DE /* Parse.framework in Frameworks */,
+				3FEDEB2B1BDC91CA00ACC0DE /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +159,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F48832D1BDCC68000DCD09D /* StoreKit.framework in Frameworks */,
+				3F48832F1BDCC68600DCD09D /* libz.tbd in Frameworks */,
+				3F48832A1BDCC67900DCD09D /* CoreLocation.framework in Frameworks */,
+				3FEDEB2E1BDC91CA00ACC0DE /* Parse.framework in Frameworks */,
+				3F48832B1BDCC67B00DCD09D /* QuartzCore.framework in Frameworks */,
+				3FEDEB2C1BDC91CA00ACC0DE /* Bolts.framework in Frameworks */,
+				3F4883301BDCC68900DCD09D /* libsqlite3.tbd in Frameworks */,
+				3F4883281BDCC67300DCD09D /* CFNetwork.framework in Frameworks */,
+				3F48832E1BDCC68300DCD09D /* SystemConfiguration.framework in Frameworks */,
+				3F4883291BDCC67600DCD09D /* CoreGraphics.framework in Frameworks */,
+				3F48832C1BDCC67E00DCD09D /* Security.framework in Frameworks */,
+				3F4883271BDCC67000DCD09D /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +180,18 @@
 		3F9D18551BDC409700E1BB92 = {
 			isa = PBXGroup;
 			children = (
+				3FEDEB411BDC923F00ACC0DE /* libsqlite3.tbd */,
+				3FEDEB3F1BDC923900ACC0DE /* libz.tbd */,
+				3FEDEB3D1BDC923400ACC0DE /* SystemConfiguration.framework */,
+				3FEDEB3B1BDC922C00ACC0DE /* StoreKit.framework */,
+				3FEDEB391BDC922800ACC0DE /* Security.framework */,
+				3FEDEB371BDC922200ACC0DE /* QuartzCore.framework */,
+				3FEDEB351BDC921E00ACC0DE /* CoreLocation.framework */,
+				3FEDEB331BDC921900ACC0DE /* CoreGraphics.framework */,
+				3FEDEB311BDC921300ACC0DE /* CFNetwork.framework */,
+				3FEDEB2F1BDC920F00ACC0DE /* AudioToolbox.framework */,
+				3FEDEB291BDC91CA00ACC0DE /* Bolts.framework */,
+				3FEDEB2A1BDC91CA00ACC0DE /* Parse.framework */,
 				3F9D18601BDC409700E1BB92 /* PayForTheFood */,
 				3F9D18741BDC409700E1BB92 /* PayForTheFood WatchKit App */,
 				3F9D18831BDC409700E1BB92 /* PayForTheFood WatchKit Extension */,
@@ -123,8 +212,12 @@
 		3F9D18601BDC409700E1BB92 /* PayForTheFood */ = {
 			isa = PBXGroup;
 			children = (
+				3FEDEB431BDCA44E00ACC0DE /* PayForTheFood.entitlements */,
 				3F9D18611BDC409700E1BB92 /* AppDelegate.swift */,
-				3F9D18631BDC409700E1BB92 /* ViewController.swift */,
+				3FEDEB441BDCB37300ACC0DE /* MainTableViewController.swift */,
+				3FEDEB251BDC899400ACC0DE /* CardEntryTableViewController.swift */,
+				3FEDEB271BDC8A2400ACC0DE /* CardObject.swift */,
+				3F4883321BDCD85400DCD09D /* MainViewController.swift */,
 				3F9D18651BDC409700E1BB92 /* Main.storyboard */,
 				3F9D18681BDC409700E1BB92 /* Assets.xcassets */,
 				3F9D186A1BDC409700E1BB92 /* LaunchScreen.storyboard */,
@@ -146,7 +239,12 @@
 		3F9D18831BDC409700E1BB92 /* PayForTheFood WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				3F4883311BDCCA7C00DCD09D /* PayForTheFood WatchKit Extension.entitlements */,
+				3FE44FF41BDD172D00198D02 /* VantivREST.swift */,
 				3F9D18841BDC409700E1BB92 /* InterfaceController.swift */,
+				3FEDEB231BDC568200ACC0DE /* PayNowController.swift */,
+				3FE44FF81BDD20CD00198D02 /* PaidInterfaceController.swift */,
+				3F9D18981BDC479100E1BB92 /* Network.swift */,
 				3F9D18861BDC409700E1BB92 /* ExtensionDelegate.swift */,
 				3F9D18881BDC409700E1BB92 /* Assets.xcassets */,
 				3F9D188A1BDC409700E1BB92 /* Info.plist */,
@@ -222,12 +320,33 @@
 				TargetAttributes = {
 					3F9D185D1BDC409700E1BB92 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = GHPL4SN6Q2;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					3F9D186F1BDC409700E1BB92 = {
 						CreatedOnToolsVersion = 7.1;
 					};
 					3F9D187E1BDC409700E1BB92 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = GHPL4SN6Q2;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -286,8 +405,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F9D18641BDC409700E1BB92 /* ViewController.swift in Sources */,
+				3FEDEB281BDC8A2400ACC0DE /* CardObject.swift in Sources */,
 				3F9D18621BDC409700E1BB92 /* AppDelegate.swift in Sources */,
+				3FEDEB451BDCB37300ACC0DE /* MainTableViewController.swift in Sources */,
+				3FEDEB261BDC899400ACC0DE /* CardEntryTableViewController.swift in Sources */,
+				3F4883331BDCD85400DCD09D /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +419,11 @@
 			files = (
 				3F9D18871BDC409700E1BB92 /* ExtensionDelegate.swift in Sources */,
 				3F9D18851BDC409700E1BB92 /* InterfaceController.swift in Sources */,
+				3FE44FF91BDD20CD00198D02 /* PaidInterfaceController.swift in Sources */,
+				3F9D18991BDC479100E1BB92 /* Network.swift in Sources */,
+				3FE44FF51BDD172D00198D02 /* VantivREST.swift in Sources */,
+				3FEDEB461BDCB37300ACC0DE /* MainTableViewController.swift in Sources */,
+				3FEDEB241BDC568200ACC0DE /* PayNowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,10 +554,18 @@
 		3F9D188E1BDC409700E1BB92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "PayForTheFood WatchKit Extension/PayForTheFood WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "PayForTheFood WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.timothyhorng.PayForTheFood.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -441,10 +576,18 @@
 		3F9D188F1BDC409700E1BB92 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "PayForTheFood WatchKit Extension/PayForTheFood WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "PayForTheFood WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.timothyhorng.PayForTheFood.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -488,10 +631,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PayForTheFood/PayForTheFood.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = PayForTheFood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.timothyhorng.PayForTheFood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -499,10 +650,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PayForTheFood/PayForTheFood.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = PayForTheFood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.timothyhorng.PayForTheFood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -525,6 +684,7 @@
 				3F9D188F1BDC409700E1BB92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F9D18911BDC409700E1BB92 /* Build configuration list for PBXNativeTarget "PayForTheFood WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +693,7 @@
 				3F9D18931BDC409700E1BB92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F9D18951BDC409700E1BB92 /* Build configuration list for PBXNativeTarget "PayForTheFood" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +702,7 @@
 				3F9D18971BDC409700E1BB92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

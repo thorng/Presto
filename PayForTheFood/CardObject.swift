@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+class CardObject {
+    var cardNumber: String = ""
+    var expirationDate: String = ""
+    var securityCode: String = ""
+    var zipCode: String = ""
+}
